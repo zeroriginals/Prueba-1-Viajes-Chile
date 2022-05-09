@@ -9,6 +9,24 @@ $(document).ready(function () {
     })
 
 
+    /* Toggle - img - card */
+    $(".card1").on("click", function () {
+        $(".card-text1").toggle();
+    });
+    $(".card2").on("click", function () {
+        $(".card-text2").toggle();
+    });
+    $(".card3").on("click", function () {
+        $(".card-text3").toggle();
+    });
+    $(".card4").on("click", function () {
+        $(".card-text4").toggle();
+    });
+
+
+
+
+
 
 });
 
