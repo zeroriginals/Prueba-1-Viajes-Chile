@@ -1,10 +1,17 @@
-/*modal boton contacto*/
-var myModal = document.getElementById('myModal')
-var myInput = document.getElementById('myInput')
+/* jquery  */
 
-myModal.addEventListener('shown.bs.modal', function () {
-    myInput.focus()
-})
+$(document).ready(function () {
+
+    /*tooltip - iconos - quienes somos */
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+
+
+});
+
 
 
 
