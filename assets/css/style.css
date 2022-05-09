@@ -1,4 +1,5 @@
 /*generales*/
+
 .bg-negro {
     background-color: black;
 }
@@ -14,7 +15,7 @@ hr {
 
 i {
     font-size: 1.5rem;
-    color: #fff !important;
+    color: #fff;
 }
 
 p {
@@ -45,7 +46,7 @@ h4 {
     font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
-    color: #fff !important;
+    color: #fff;
 }
 
 /*estilos carousel*/
