@@ -23,11 +23,6 @@ $(document).ready(function () {
         $(".card-text4").toggle();
     });
 
-
-
-
-
-
 });
 
 
